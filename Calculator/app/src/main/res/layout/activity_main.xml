@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="#FFFFFF"
+        android:elevation="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+
+        <EditText
+            android:id="@+id/etNumber1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter first number"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:backgroundTint="#3F51B5"/>
+
+
+        <EditText
+            android:id="@+id/etNumber2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter second number"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#3F51B5"/>
+
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Result: 0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#E8EAF6"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                android:backgroundTint="#4CAF50"/>
+
+
+            <Button
+                android:id="@+id/btnSub"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="-"
+                android:textSize="22sp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#FF9800"/>
+
+
+            <Button
+                android:id="@+id/btnMul"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="×"
+                android:textSize="22sp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#2196F3"/>
+
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="÷"
+                android:textSize="22sp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#F44336"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

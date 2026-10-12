@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "name": "Naresh Zhanth",
+      "age": 20,
+      "department": "CSE"
+    },
+    {
+      "name": "Mounesh",
+      "age": 21,
+      "department": "CSE"
+    },
+    {
+      "name": "Logeshkumaran",
+      "age": 20,
+      "department": "CSE"
+    }
+  ]
+}
